@@ -1,0 +1,7 @@
+/* External stylesheet for Twine (Harlowe) */
+tw-passage {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

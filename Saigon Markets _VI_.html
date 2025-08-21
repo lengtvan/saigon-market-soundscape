@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Saigon Markets</title>
+<title>Saigon Markets (VI)</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:.1em}0%,to{top:0px}}@keyframes shudder{25%{left:.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%,to{transform:translateX(0em)}5%,25%,45%{transform:translateX(-1em)}15%,35%,55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%,to{transform:translateY(0em)}5%,25%,45%{transform:translateY(-1em)}15%,35%,55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%,8.1%,82.1%,31.1%,38.1%,44.1%,40.1%,47.1%,74.1%,16.1%,27.1%,72.1%,24.1%,95.1%,6.1%,36.1%,20.1%,4.1%,91.1%,14.1%,87.1%,to{left:0px;top:0px}8%,82%,31%,38%,44%{left:-1px}40%,47%,74%,16%,27%{left:1px}72%,24%,95%,6%,36%{top:-1px}20%,4%,91%,14%,87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:.2}64%{opacity:.4}78%{opacity:.6}87%{opacity:.8}92%,to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:#000;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}tw-open-button[goto]{display:none}.debug-mode tw-open-button[replay],.debug-mode tw-open-button[goto]{display:inline}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 .5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,.5)}.debug-mode tw-expression[title]:not([title=""]){cursor:help}.debug-mode tw-hook{background-color:rgba(0,85,255,.1) !important}.debug-mode tw-hook::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,.1) !important}.debug-mode tw-collapsed::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 50%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0.25) 0%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,.2)}.debug-mode tw-enchantment{animation:enchantment .5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,.1)}.debug-mode tw-include::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}.debug-dialogs tw-backdrop:not(.eval-replay):not(.harlowe-crash){pointer-events:none;opacity:.1}tw-eval-replay tw-eval-code,tw-eval-replay tw-eval-explanation{max-height:20vh;overflow:auto;margin:10px auto}tw-eval-replay tw-eval-code{display:block;font-family:monospace;padding-bottom:1ex;border-bottom:2px solid gray}tw-eval-replay tw-eval-explanation{display:block;text-align:center}tw-eval-replay tw-eval-explanation>code{white-space:pre-wrap}tw-eval-replay tw-eval-explanation>code.from-block{width:40%;display:inline-block;text-align:left;max-height:4em;overflow-wrap:anywhere;overflow-y:scroll}tw-eval-replay tw-eval-explanation>code.from-block~.to-desc{width:calc(40% - 2em);margin-left:2em;display:inline-block}tw-eval-replay tw-eval-explanation>code.from-block+span::after{content:"..."}tw-eval-replay tw-eval-explanation>code.from-inline{text-align:right}tw-eval-replay tw-eval-explanation>:nth-child(2){white-space:pre}tw-eval-replay tw-eval-explanation>.to-desc{text-align:left}tw-eval-replay tw-eval-explanation>table{width:100%;margin-top:1em}tw-eval-replay tw-eval-explanation>table td{white-space:pre-wrap !important;word-wrap:anywhere}tw-eval-replay tw-eval-reason{text-align:center;font-size:80%;font-style:italic;display:block}tw-eval-replay tw-eval-it{text-align:center;font-size:80%;display:block}tw-eval-replay tw-dialog-links{display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:14em;min-height:1em;padding:0em .5em .5em 1em;font-size:1.25em;font-family:sans-serif;color:#262626;background-color:#fff;border-left:solid #262626 2px;border-top:solid #262626 2px;border-top-left-radius:.5em;opacity:1}tw-debugger.fade-panel:not(:hover){opacity:.33}tw-debugger.theme-dark{color:#d9d9d9;background-color:#000}tw-debugger.theme-dark{border-color:#d9d9d9 rgba(0,0,0,0) rgba(0,0,0,0) #d9d9d9}tw-debugger select{margin-right:1em;width:12em}tw-debugger button,tw-debugger tw-link{border-radius:3px;border:solid #999 1px;margin:auto 4px;color:#262626;background-color:#fff;cursor:pointer}tw-debugger button.enabled,tw-debugger tw-link.enabled{color:#000;background-color:#d9d9d9;box-shadow:inset #999 3px 5px .5em}tw-debugger.theme-dark button,tw-debugger.theme-dark tw-link{color:#d9d9d9;background-color:#000;border-color:#666}tw-debugger.theme-dark button.enabled,tw-debugger.theme-dark tw-link.enabled{color:#e6e6e6;background-color:#424242;box-shadow:inset #666 3px 5px .5em}tw-debugger button{font-size:1em;overflow-x:hidden;text-overflow:ellipsis;white-space:pre}tw-debugger tw-link{font-size:1.25em;border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-debugger tw-link:hover{border-color:#262626;color:#262626}tw-debugger.theme-dark tw-link:hover{border-color:#d9d9d9;color:#d9d9d9}tw-debugger tw-dialog{background-color:#fff;color:#000;font-size:1.25em}tw-debugger.theme-dark tw-dialog{background-color:#000;color:#e6e6e6}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;overflow-y:scroll;overflow-x:hidden;border:inherit;box-sizing:content-box;background-color:#fff;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger.theme-dark .panel{background-color:#000;border-bottom-color:#666}tw-debugger .panel-source .panel-row-buttons{width:2rem}tw-debugger .panel-source .source-tags{width:20%;font-style:italic}tw-debugger .panel-row-source td{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:8rem;padding:1rem}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background-color:#e6e6e6}tw-debugger .panel-tools .panel-rows>*,tw-debugger .panel-options .panel-rows>*{margin-top:.4rem;display:block}tw-debugger.theme-dark .panel-rows>div:nth-of-type(2n){background-color:#212121}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty+.panel-errors-bottom{display:none}tw-debugger.theme-dark .panel-variables .panel-rows:empty::before,tw-debugger.theme-dark .panel-enchantments .panel-rows:empty::before,tw-debugger.theme-dark .panel-errors .panel-rows:empty::before{color:#a8a8a8}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger th[data-col]{text-decoration:underline;cursor:pointer}tw-debugger th[data-col][data-order=asc]::after{content:"↓"}tw-debugger th[data-col][data-order=desc]::after{content:"↑"}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .storylet-exclusive,tw-debugger .storylet-urgent,tw-debugger .storylet-open{text-align:center}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:.8;font-size:.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#575757;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger.theme-dark .variable-type{color:#a8a8a8}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,.3)}tw-debugger .error-row>*{display:table-cell;padding:.25em .5em}tw-debugger .error-row .error-message[title]:not([title=""]){cursor:help}tw-debugger .error-row .error-passage{color:#575757}tw-debugger.theme-dark .error-row .error-passage{color:#a8a8a8}tw-debugger .storylet-row{background-color:rgba(193,240,225,.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(152,231,204,.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;background-color:#fff}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:#e6e6e6}tw-debugger .storylet-row.storylet-closed>:not(.storylet-lambda){opacity:.6}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .storylet-row .storylet-lambda{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere}tw-debugger.theme-dark .storylet-row.storylet-closed{background-color:#000}tw-debugger.theme-dark .storylet-row.storylet-closed:nth-child(2n){background-color:#212121}tw-debugger .tabs{padding-bottom:.5em}tw-debugger .tab{border-radius:0px 0px .5em .5em;border-top:none;top:-2px}tw-debugger .resizer-h{position:absolute;height:14em;border-left:2px solid #999;border-right:2px solid #999;top:10px;left:4px;width:8px;cursor:ew-resize}tw-debugger.theme-dark .resizer-h{border-color:rgba(0,0,0,0) #666}tw-debugger .resizer-v{position:absolute;height:8px;border-top:2px solid #999;border-bottom:2px solid #999;margin-bottom:4px;top:4px;left:10px;width:95%;cursor:ns-resize;box-sizing:border-box}tw-debugger.theme-dark .resizer-v{border-color:#666 rgba(0,0,0,0)}tw-debugger mark{color:inherit;background-color:rgba(101,230,230,.3) !important}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media(min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%;border:solid #fff !important}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop~tw-backdrop{display:none}tw-link,.enchantment-link{cursor:pointer;color:#4169e1;font-weight:bold;text-decoration:none;transition:color .2s ease-in-out}tw-passage [style^=color] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^=color][hover=true] tw-link:hover,tw-passage [style*=" color"][hover=true] tw-link:hover,tw-passage [style^=color] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^=color][hover=true] .enchantment-link:hover,tw-passage [style*=" color"][hover=true] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#dd4b39}.visited{color:#6941e1}tw-passage [style^=color] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^=color][hover=true] .visited:hover,tw-passage [style*=" color"][hover=true] .visited:hover{color:inherit}.visited:hover{color:#e3e}tw-broken-link{color:#933;border-bottom:2px solid #933;cursor:not-allowed}tw-passage [style^=color] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^=color][hover=true] tw-broken-link:hover,tw-passage [style*=" color"][hover=true] tw-broken-link:hover{color:inherit}tw-link.enchantment-mouseover,.link.enchantment-mouseover,tw-expression.enchantment-mouseover>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border-bottom:2px dashed #999}tw-link.enchantment-mouseover:hover,tw-link.enchantment-mouseover:active,.link.enchantment-mouseover:hover,.link.enchantment-mouseover:active,tw-expression.enchantment-mouseover>tw-link:hover,tw-expression.enchantment-mouseover>tw-link:active{color:inherit}tw-link.enchantment-mouseover.enchantment-button,.link.enchantment-mouseover.enchantment-button,tw-expression.enchantment-mouseover>tw-link.enchantment-button{border-style:dashed}tw-link.enchantment-mouseout,.link.enchantment-mouseout,tw-expression.enchantment-mouseout>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border:rgba(64,149,191,.6) 1px solid;border-radius:.2em}tw-link.enchantment-mouseout:hover,tw-link.enchantment-mouseout:active,.link.enchantment-mouseout:hover,.link.enchantment-mouseout:active,tw-expression.enchantment-mouseout>tw-link:hover,tw-expression.enchantment-mouseout>tw-link:active{color:inherit}tw-link.enchantment-mouseout:hover,.link.enchantment-mouseout:hover,tw-expression.enchantment-mouseout>tw-link:hover{background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 1px solid}tw-link.enchantment-dblclick,.link.enchantment-dblclick,tw-expression.enchantment-dblclick>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;cursor:pointer;border:2px solid #999;border-radius:0}tw-link.enchantment-dblclick:hover,tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:hover,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:hover,tw-expression.enchantment-dblclick>tw-link:active{color:inherit}tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:active{background-color:#999}tw-link.enchantment-button,.link.enchantment-button,.enchantment-button:not(.link) tw-link,.enchantment-button:not(.link) .link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}.enchantment-button{display:block}.enchantment-clickblock{cursor:pointer;width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,.5);transition:color .2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 .5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 .5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 2px solid;border-radius:.2em}.enchantment-dblclickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;cursor:pointer;border:2px solid #999}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia,serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media(min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:rgba(0,0,0,0);font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=text]{background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 .5em .5em .5em;vertical-align:middle}tw-story tw-noscript{animation:appear .8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media(min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*=width]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:.2;cursor:pointer}tw-icon[alt]:hover{opacity:.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:.2em;padding:.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:4px;border:1px solid rgba(255,255,255,.5);font-size:.8rem;margin:0 .2rem;padding:3px;white-space:pre}tw-folddown::after{content:"▶"}tw-folddown.open::after{content:"▼"}tw-open-button[replay]{display:none}tw-error tw-open-button,tw-eval-replay tw-open-button{display:inline !important}tw-open-button::after{content:attr(label)}tw-notifier{border-radius:.2em;padding:.2em;font-size:1rem;background-color:rgba(223,182,58,.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid #000;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:.3em 0 .6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,.6);background-color:#ff9}ins{color:rgba(0,0,0,.6);background-color:rgba(255,242,204,.5);border-radius:.5em;box-shadow:0em 0em .2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Saigon Markets.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Saigon Markets" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="3A05AF50-988C-4459-8992-E20ECC842559" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 1) Load the font */
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Saigon Markets (VI).</tw-noscript></noscript></tw-story>
+<tw-storydata name="Saigon Markets (VI)" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="c10daac6-0733-4b0a-afa3-e80f67af258b" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 1) Load the font */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 /* 2) Global defaults (Harlowe & SugarCube friendly) */
@@ -903,48 +903,52 @@ tw-story[tags~="thi-ky-food-area"] * {
   border-radius: 12px;
   backdrop-filter: blur(2px);
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="binh-dien-meat" color="none"></tw-tag><tw-tag name="binh-tay-floor" color="none"></tw-tag><tw-passagedata pid="1" name="Beginning" tags="" position="925,0" size="100,100">Start
-Welcome to the **Saigon Market Soundscape Project** — an interactive audio journey through the city’s marketplaces.
-Through authentic field recordings, you will experience how sound shapes and reflects the life of Saigon at different times of the day.
-lease choose a time frame to begin, or select a language:
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="binh-dien-meat" color="none"></tw-tag><tw-tag name="binh-tay-floor" color="none"></tw-tag><tw-passagedata pid="1" name="Beginning" tags="" position="925,0" size="100,100">Bắt đầu
+Chào mừng bạn đến với **Dự án Thanh Âm Chợ Sài Gòn** — nơi bạn có thể lắng nghe và khám phá nhịp sống của chợ qua những âm thanh đời thường.
+Từ những bản ghi âm thực tế, bạn sẽ cảm nhận được hơi thở của Sài Gòn ở từng khoảnh khắc trong ngày.
+Hãy chọn khung thời gian để bắt đầu, hoặc chọn ngôn ngữ:
 
-<a href="Saigon Markets _VI_.html">Tiếng Việt</a>
+<a href="Saigon_Markets_FINAL.html">English</a>
 
-[[Early Morning-&gt;Early Morning]]
-[[Morning-&gt;Morning]]
-[[Late Afternoon-&gt;Late Afternoon]]</tw-passagedata><tw-passagedata pid="2" name="BinhDienGateDenseTraffic" tags="" position="300,900" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="BinhDienGateOutside" tags="" position="175,900" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Early Morning" tags="" position="475,150" size="100,100">Early Morning
-Before sunrise, Saigon’s markets are already alive with activity.
-Wholesale transactions peak, goods are unloaded, and the foundations of the day’s commerce are set.
-Select a market to explore in this time frame:
+[[Sáng sớm-&gt;Early Morning]]
+[[Buổi sáng-&gt;Morning]]
+[[Chiều muộn-&gt;Late Afternoon]]</tw-passagedata><tw-passagedata pid="2" name="Early Morning" tags="" position="475,150" size="100,100">Sáng sớm
+Khi mặt trời chưa kịp ló rạng, những khu chợ Sài Gòn đã rộn ràng nhịp sống.
+Những chuyến hàng vừa được dỡ xuống, không khí mua bán đã rộn ràng khắp nơi, mở đầu cho một ngày chợ mới đầy sôi động.
+
+Hãy chọn một khu chợ để khám phá:
 
 [[Chợ đầu mối Bình Điền-&gt;Early Morning Bình Điền]]
-[[Chợ Bình Tây (chợ Lớn)-&gt;Early Morning Bình Tây]]</tw-passagedata><tw-passagedata pid="5" name="Morning" tags="" position="1075,350" size="100,100">Morning
+[[Chợ Bình Tây (chợ Lớn)-&gt;Early Morning Bình Tây]]</tw-passagedata><tw-passagedata pid="3" name="Morning" tags="" position="1075,350" size="100,100">Buổi sáng
 
-This time frame captures the city in its early daily rhythm, when commercial activities are in full swing and the interplay of sound, movement, and human interaction shapes the unique sensory identity of each market.  
-In this segment, you will explore two emblematic urban markets—**Chợ Bến Thành** and **Chợ Tân Bình**—both central to understanding the socio-economic and cultural life of Hồ Chí Minh City.
+Khung giờ này ghi lại nhịp sống buổi sớm của thành phố, khi các hoạt động buôn bán diễn ra nhộn nhịp và âm thanh hòa cùng dòng người tạo nên không khí riêng.
+Tại đây, bạn sẽ khám phá hai khu chợ quen thuộc—**Chợ Bến Thành** và **Chợ Tân Bình**—những nơi gắn liền với đời sống kinh tế và văn hóa Sài Gòn.
 
-Please select a market to proceed:
+Hãy chọn một khu chợ để tiếp tục:
 
 [[Chợ Bến Thành-&gt;Morning Bến Thành]]  
 [[Chợ Tân Bình-&gt;Morning Tân Bình]]
-</tw-passagedata><tw-passagedata pid="6" name="Late Afternoon" tags="" position="2075,650" size="100,100">:: Late Afternoon
-This time frame reflects the city in a transitional phase between day and evening, when market activities shift from the concentrated energy of daytime trade to the more fluid, socially oriented rhythms of the night. The soundscapes during these hours capture a nuanced interplay between commerce, leisure, and community interaction.
+</tw-passagedata><tw-passagedata pid="4" name="Late Afternoon" tags="" position="2075,650" size="100,100">Chiều muộn
+Khi trời dần tắt nắng, nhịp chợ cũng thay đổi: bớt hối hả mua bán, thêm tiếng chuyện trò, ăn uống và dạo chơi. Âm thanh lúc này vừa nhộn nhịp vừa thoải mái, pha chút không khí sum vầy buổi tối.
 
-Select a market to explore in this time frame:
+Hãy chọn một khu chợ để tiếp tục khám phá:
 
 [[Chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
 [[Chợ Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
-</tw-passagedata><tw-passagedata pid="7" name="Early Morning Bình Điền" tags="" position="100,375" size="100,100">Early Morning Bình Điền
-You are now at **Chợ đầu mối Bình Điền**, the city’s largest wholesale market supplying produce, seafood, and meat across Saigon.
-Choose an area to hear its distinctive soundscape:
+</tw-passagedata><tw-passagedata pid="5" name="Early Morning Bình Điền" tags="" position="100,375" size="100,100">Sáng sớm chợ Bình Điền
+Bạn đang ở **Chợ đầu mối Bình Điền**, chợ đầu mối lớn nhất Sài Gòn, cung cấp rau củ, hải sản và thịt cho khắp thành phố.
 
-[[Market gate, heavy vehicle traffic (outdoors)-&gt;Bình Điền • Gate (Dense Traffic)]]
-[[Market gate (outdoors)-&gt;Bình Điền • Gate (Outdoors)]]
-[[Meat section-&gt;Bình Điền • Meat]]
-[[Fish section-&gt;Bình Điền • Fish]]
-[[Snail section-&gt;Bình Điền • Snails]]
-[[Vegetable section (outdoors)-&gt;Bình Điền • Vegetables (Outdoors)]]
-[[Vegetable section (indoors, quiet)-&gt;Bình Điền • Vegetables (Indoors, Quiet)]]</tw-passagedata><tw-passagedata pid="8" name="Early Morning Bình Tây" tags="" position="550,425" size="100,100">:: Early Morning Bình Tây
+Hãy chọn một góc chợ để lắng nghe âm thanh đặc trưng:
+
+- [[Cổng chợ, giao thông dày đặc (ngoài trời)-&gt;Bình Điền • Gate (Dense Traffic)]]
+- [[Cổng chợ (ngoài trời)-&gt;Bình Điền • Gate (Outdoors)]]
+- [[Gian hàng thịt-&gt;Bình Điền • Meat]]
+- [[Gian hàng cá-&gt;Bình Điền • Fish]]
+- [[Gian hàng ốc-&gt;Bình Điền • Snails]]
+- [[Gian hàng rau (ngoài trời)-&gt;Bình Điền • Vegetables (Outdoors)]]
+- [[Gian hàng rau (trong nhà)-&gt;Bình Điền • Vegetables (Indoors, Quiet)]]
+
+[[Quay lại Sáng sớm-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="6" name="Early Morning Bình Tây" tags="" position="550,425" size="100,100">Sáng sớm chợ Bình Tây
 &lt;style&gt;
 body {
     background-image: url(&quot;images/Chợ Bình Tây_6am_tiểu thương dọn hàng sáng sớm_Jan2025.jpg&quot;);
@@ -959,20 +963,19 @@ body {
     font-family: &#39;Merriweather&#39;, serif;
 }
 &lt;/style&gt;
+**Chào mừng đến với Chợ Bình Tây buổi sáng sớm**  
+Chợ Bình Tây, nằm ở trung tâm Chợ Lớn, bắt đầu nhộn nhịp từ lúc bình minh. Chủ sạp dọn hàng, rau củ tươi được bày ra, tiếng bước chân hòa lẫn cùng những thông báo của chợ.
 
-**Welcome to Early Morning Bình Tây Market**  
-The Bình Tây Market, located in the heart of Chợ Lớn, awakens with a distinctive rhythm at dawn. Vendors prepare their stalls, the scent of fresh produce fills the air, and the echoes of footsteps mix with market announcements. In this section, you can explore key areas of the market at the start of the day.
+Hãy chọn một góc chợ để trải nghiệm:
 
-Please select an area to explore:
+- [[Chuẩn bị sạp hàng-&gt;Bình Tây • Preparing Stalls at Dawn]]
+- [[Âm thanh tầng một buổi sớm-&gt;Bình Tây • First Floor Sounds at Dawn]]
+- [[Quầy ẩm thực-&gt;Bình Tây • Food Court]]
+- [[Thông báo nghỉ Tết-&gt;Bình Tây • New Year Holiday Announcement]]
+- [[Tiểu thương dựng sạp-&gt;Bình Tây • Vendors Setting Up Stalls]]
 
-- [[Preparing Stalls at Dawn-&gt;Bình Tây • Preparing Stalls at Dawn]]
-- [[First Floor Sounds at Dawn-&gt;Bình Tây • First Floor Sounds at Dawn]]
-- [[Food Court-&gt;Bình Tây • Food Court]]
-- [[New Year Holiday Announcement-&gt;Bình Tây • New Year Holiday Announcement]]
-- [[Vendors Setting Up Stalls-&gt;Bình Tây • Vendors Setting Up Stalls]]
-
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="9" name="Bình Điền • Gate (Dense Traffic)" tags="binh-dien-gate" position="175,650" size="100,100">:: Bình Điền • Gate (Dense Traffic)
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="7" name="Bình Điền • Gate (Dense Traffic)" tags="binh-dien-gate" position="175,650" size="100,100">Bình Điền • Cổng chợ (Giao thông dày đặc)
 
 4:00 AM
 
@@ -982,9 +985,9 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="10" name="Bình Điền • Gate (Outdoors)" tags="binh-dien-front-gate" position="300,650" size="100,100">Bình Điền • Gate (Outdoor Area)
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="8" name="Bình Điền • Gate (Outdoors)" tags="binh-dien-front-gate" position="300,650" size="100,100">Bình Điền • Cổng chợ (Khu vực ngoài trời)
 
 4:00 AM
 
@@ -994,8 +997,8 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="11" name="Bình Điền • Meat" tags="binh-dien-meat" position="50,650" size="100,100">Bình Điền • Meat Section
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="9" name="Bình Điền • Meat" tags="binh-dien-meat" position="50,650" size="100,100">Bình Điền • Gian hàng thịt
 
 5:00 AM
 
@@ -1005,8 +1008,8 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="12" name="Bình Điền • Fish" tags="binh-dien-fish" position="50,775" size="100,100">Bình Điền • Fish Section
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="10" name="Bình Điền • Fish" tags="binh-dien-fish" position="50,775" size="100,100">Bình Điền • Gian hàng cá
 
 5:00 AM
 
@@ -1016,8 +1019,8 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="13" name="Bình Điền • Snails" tags="binh-dien-snail" position="175,775" size="100,100">:: Bình Điền • Snail Section
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]</tw-passagedata><tw-passagedata pid="11" name="Bình Điền • Snails" tags="binh-dien-snail" position="175,775" size="100,100">Bình Điền • Gian hàng ốc
 
 5:00 AM
 
@@ -1027,9 +1030,9 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="14" name="Bình Điền • Vegetables (Outdoors)" tags="binh-dien-vet-outdoor" position="300,775" size="100,100">:: Bình Điền • Outdoor Vegetable Section
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="12" name="Bình Điền • Vegetables (Outdoors)" tags="binh-dien-vet-outdoor" position="300,775" size="100,100">Bình Điền • Gian hàng rau (Ngoài trời)
 
 5:00 AM
 
@@ -1039,9 +1042,9 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="15" name="Bình Điền • Vegetables (Indoors, Quiet)" tags="binh-dien-vet-indoor" position="50,900" size="100,100">:: Bình Điền • Indoor Vegetable Section (Quiet)
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="13" name="Bình Điền • Vegetables (Indoors, Quiet)" tags="binh-dien-vet-indoor" position="50,900" size="100,100">Bình Điền • Gian hàng rau (Trong nhà)
 
 5:00 AM
 
@@ -1051,9 +1054,9 @@ Please select an area to explore:
   Your browser does not support the audio element.
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Điền-&gt;Early Morning Bình Điền]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="16" name="Bình Tây • Preparing Stalls at Dawn" tags="binh-tay-prep" position="475,800" size="100,100">:: Bình Tây • Preparing Stalls at Dawn
+[[Quay lại Sáng sớm chợ Bình Điền-&gt;Early Morning Bình Điền]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="14" name="Bình Tây • Preparing Stalls at Dawn" tags="binh-tay-prep" position="475,800" size="100,100">Bình Tây • Chuẩn bị sạp hàng
 
 6:00 AM
 
@@ -1061,9 +1064,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%20%28ch%E1%BB%A3%20L%E1%BB%9Bn%29_6am_%C3%A2m%20thanh%20d%E1%BB%8Dn%20h%C3%A0ng%20%C4%91%E1%BA%A7u%20ng%C3%A0y_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Tây-&gt;Early Morning Bình Tây]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="17" name="Bình Tây • First Floor Sounds at Dawn" tags="binh-tay-floor" position="475,675" size="100,100">:: Bình Tây • First Floor Sounds at Dawn
+[[Quay lại Sáng sớm chợ Bình Tây-&gt;Early Morning Bình Tây]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="15" name="Bình Tây • First Floor Sounds at Dawn" tags="binh-tay-floor" position="475,675" size="100,100">Bình Tây • Âm thanh tầng một buổi sớm
 
 6:00 AM
 
@@ -1071,9 +1074,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%20%28ch%E1%BB%A3%20L%E1%BB%9Bn%29_6am_%C3%A2m%20thanh%20t%E1%BB%AB%20l%E1%BA%A7u%201%20v%C3%A0o%20s%C3%A1ng%20s%E1%BB%9Bm_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Tây-&gt;Early Morning Bình Tây]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="18" name="Bình Tây • Food Court" tags="binh-tay-food" position="625,675" size="100,100">:: Bình Tây • Food Court
+[[Quay lại Sáng sớm chợ Bình Tây-&gt;Early Morning Bình Tây]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="16" name="Bình Tây • Food Court" tags="binh-tay-food" position="625,675" size="100,100">Bình Tây • Quầy ẩm thực
 
 6:00 AM
 
@@ -1081,9 +1084,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%20%28ch%E1%BB%A3%20L%E1%BB%9Bn%29_6am_khu%20%C4%83n%20u%E1%BB%91ng_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Tây-&gt;Early Morning Bình Tây]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="19" name="Bình Tây • New Year Holiday Announcement" tags="binh-tay-tet" position="750,675" size="100,100">:: Bình Tây • New Year Holiday Announcement
+[[Quay lại Sáng sớm chợ Bình Tây-&gt;Early Morning Bình Tây]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="17" name="Bình Tây • New Year Holiday Announcement" tags="binh-tay-tet" position="750,675" size="100,100">Bình Tây • Thông báo nghỉ tết
 
 6:00 AM
 
@@ -1091,9 +1094,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%20%28ch%E1%BB%A3%20L%E1%BB%9Bn%29_6am_th%C3%B4ng%20b%C3%A1o%20ngh%E1%BB%89%20t%E1%BA%BFt%20%E1%BA%A4t%20T%E1%BB%B5%202025%20t%E1%BB%AB%20BQL%20ch%E1%BB%A3_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Tây-&gt;Early Morning Bình Tây]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="20" name="Bình Tây • Vendors Setting Up Stalls" tags="binh-tay-vendor" position="625,800" size="100,100">:: Bình Tây • Vendors Setting Up Stalls
+[[Quay lại Sáng sớm chợ Bình Tây-&gt;Early Morning Bình Tây]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="18" name="Bình Tây • Vendors Setting Up Stalls" tags="binh-tay-vendor" position="625,800" size="100,100">Bình Tây • Tiểu thương dựng sạp
 
 6:00 AM
 
@@ -1101,34 +1104,34 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%20%28ch%E1%BB%A3%20L%E1%BB%9Bn%29_6am_ti%E1%BB%83u%20th%C6%B0%C6%A1ng%20d%E1%BB%8Dn%20h%C3%A0ng%20s%C3%A1ng%20s%E1%BB%9Bm_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Early Morning Bình Tây-&gt;Early Morning Bình Tây]]  
-[[Back to Early Morning Time Frames-&gt;Early Morning]]
-</tw-passagedata><tw-passagedata pid="21" name="Morning Bến Thành" tags="" position="1100,575" size="100,100">Morning Bến Thành
-In the morning hours, **Chợ Bến Thành** offers an immersive study in urban commercial soundscapes.  
-The spatial configuration of its stalls and the density of pedestrian movement create overlapping layers of auditory stimuli: the cadence of vendor calls, the clinking of utensils, and the fluid exchanges of bargaining.  
-Select a sector to engage with specific micro-environments:
+[[Quay lại Sáng sớm chợ Bình Tây-&gt;Early Morning Bình Tây]]  
+[[Quay lại Sáng sớm-&gt;Early Morning]]
+</tw-passagedata><tw-passagedata pid="19" name="Morning Bến Thành" tags="" position="1100,575" size="100,100">Buổi sáng chợ Bến Thành
+Vào buổi sáng, **Chợ Bến Thành** mang đến một bức tranh sống động về âm thanh của nhịp chợ.
+Cách sắp xếp các sạp hàng cùng dòng người qua lại tạo nên nhiều lớp âm thanh: tiếng rao hàng, tiếng leng keng, và những cuộc trả giá rộn ràng.
 
-[[Food Court 01-&gt;Bến Thành • Food Court 01]]  
-[[Shopping Area 02-&gt;Bến Thành • Shopping Area 02]]  
-[[Shopping Area 01-&gt;Bến Thành • Shopping Area 01]]  
-[[Food Court 02-&gt;Bến Thành • Food Court 02]]  
+Hãy chọn một khu vực để khám phá:
 
-[[Back to Morning]]</tw-passagedata><tw-passagedata pid="22" name="Morning Tân Bình" tags="" position="1550,575" size="100,100">Morning Tân Bình
-**Chợ Tân Bình** functions in the morning as both a wholesale and retail marketplace, offering insight into the city’s textile and food distribution networks.  
-Here, auditory markers range from the rhythmic mechanical sounds of meat processing to the informal linguistic exchanges of negotiation. These sonic elements are intertwined with spatial patterns—from enclosed ground-floor sections to open-air perimeters.  
-Select a sector to explore:
+[[Quầy ẩm thực 01-&gt;Bến Thành • Food Court 01]]  
+[[Khu mua sắm 02-&gt;Bến Thành • Shopping Area 02]]  
+[[Khu mua sắm 01-&gt;Bến Thành • Shopping Area 01]]  
+[[Quầy ẩm thực 02-&gt;Bến Thành • Food Court 02]]  
+</tw-passagedata><tw-passagedata pid="20" name="Morning Tân Bình" tags="" position="1550,575" size="100,100">Buổi sáng chợ Tân Bình
+**Chợ Tân Bình** vào buổi sáng vừa là chợ sỉ vừa là chợ lẻ, nhộn nhịp với hàng vải và khu thực phẩm.
+Tiếng máy xay, dao thớt và tiếng trả giá tạo nên nhịp điệu quen thuộc của chợ. Các gian hàng nối tiếp nhau, từ trong nhà đến ngoài trời.
 
-[[Food Court-&gt;Tân Bình • Food Court]]  
-[[Accessories Section-&gt;Tân Bình • Accessories]]  
-[[Food Section-&gt;Tân Bình • Food Section]]  
-[[Clothing Area – 1st Floor-&gt;Tân Bình • Clothing 1st Floor]]  
-[[Outdoor Clothing Area-&gt;Tân Bình • Clothing Outdoor]]  
-[[Clothing Area-&gt;Tân Bình • Clothing Area]]  
-[[Food Section (Meat Grinder &amp; Chopping)-&gt;Tân Bình • Food Section Meat Grinder]]  
-[[Front Gate Soundscape-&gt;Tân Bình • Front Gate]]  
-[[Outdoor Sound – from 2nd Floor-&gt;Tân Bình • Outdoor 2nd Floor]]  
+Hãy chọn một khu vực để khám phá:
 
-[[Back to Morning]]</tw-passagedata><tw-passagedata pid="23" name="Bến Thành • Food Court 01" tags="ben-thanh-food-1" position="950,900" size="100,100">Bến Thành • Food Court 01
+[[Quầy ẩm thực-&gt;Tân Bình • Food Court]]  
+[[Gian phụ kiện-&gt;Tân Bình • Accessories]]  
+[[Gian thực phẩm-&gt;Tân Bình • Food Section]]  
+[[Gian quần áo – tầng 1-&gt;Tân Bình • Clothing 1st Floor]]  
+[[Gian quần áo ngoài trời-&gt;Tân Bình • Clothing Outdoor]]  
+[[Gian quần áo-&gt;Tân Bình • Clothing Area]]  
+[[Gian thực phẩm (máy xay, dao thớt)-&gt;Tân Bình • Food Section Meat Grinder]]  
+[[Âm thanh cổng chính-&gt;Tân Bình • Front Gate]]  
+[[Âm thanh ngoài trời – từ tầng 2-&gt;Tân Bình • Outdoor 2nd Floor]]  
+</tw-passagedata><tw-passagedata pid="21" name="Bến Thành • Food Court 01" tags="ben-thanh-food-1" position="950,900" size="100,100">Bến Thành • Quầy ẩm thực 01
 
 
 10:00 AM
@@ -1138,10 +1141,10 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3 B%E1%BA%BFn Th%C3%A0nh_10am_khu %C4%83n u%E1%BB%91ng 01_May2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Bến Thành-&gt;Morning Bến Thành]]  
-[[Back to Morning Time Frames-&gt;Morning]]
+[[Quay lại Buổi sáng chợ Bến Thành-&gt;Morning Bến Thành]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
 
-</tw-passagedata><tw-passagedata pid="24" name="Bến Thành • Shopping Area 02" tags="ben-thanh-shop-2" position="950,750" size="100,100">:: Bến Thành • Shopping Area 02
+</tw-passagedata><tw-passagedata pid="22" name="Bến Thành • Shopping Area 02" tags="ben-thanh-shop-2" position="950,750" size="100,100">Bến Thành • Khu mua sắm 02
 
 10:00 AM
 
@@ -1149,9 +1152,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Be%CC%82%CC%81n%20Tha%CC%80nh_10am_khu%20mua%20sa%CC%86%CC%81m%2002_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Bến Thành-&gt;Morning Bến Thành]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="25" name="Bến Thành • Shopping Area 01" tags="ben-thanh-shop-1" position="1075,750" size="100,100">:: Bến Thành • Shopping Area 01
+[[Quay lại Buổi sáng chợ Bến Thành-&gt;Morning Bến Thành]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="23" name="Bến Thành • Shopping Area 01" tags="ben-thanh-shop-1" position="1075,750" size="100,100">Bến Thành • Khu mua sắm 01
 
 10:00 AM
 
@@ -1159,9 +1162,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Chợ Bến Thành_10am_khu mua sắm 01_May2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Bến Thành-&gt;Morning Bến Thành]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="26" name="Bến Thành • Food Court 02" tags="ben-thanh-food-2" position="1200,750" size="100,100">:: Bến Thành • Food Court 02
+[[Quay lại Buổi sáng chợ Bến Thành-&gt;Morning Bến Thành]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="24" name="Bến Thành • Food Court 02" tags="ben-thanh-food-2" position="1200,750" size="100,100">Bến Thành • Quầy ẩm thực 02
 
 10:00 AM
 
@@ -1169,9 +1172,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Be%CC%82%CC%81n%20Tha%CC%80nh_10am_khu%20a%CC%86n%20uo%CC%82%CC%81ng%2002_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Bến Thành-&gt;Morning Bến Thành]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="27" name="Tân Bình • Food Court" tags="tan-binh-eat" position="1675,1000" size="100,100">:: Tân Bình • Food Court
+[[Quay lại Buổi sáng chợ Bến Thành-&gt;Morning Bến Thành]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="25" name="Tân Bình • Food Court" tags="tan-binh-eat" position="1675,1000" size="100,100">Tân Bình • Quầy ẩm thực
 
 8:00 AM
 
@@ -1179,9 +1182,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_khu%20a%CC%86n%20uo%CC%82%CC%81ng_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="28" name="Tân Bình • Accessories" tags="tan-binh-access" position="1550,1000" size="100,100">:: Tân Bình • Accessories
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="26" name="Tân Bình • Accessories" tags="tan-binh-access" position="1550,1000" size="100,100">Tân Bình • Gian phụ kiện
 
 8:00 AM
 
@@ -1189,9 +1192,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_khu%20phu%CC%A3%20kie%CC%A3%CC%82n_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="29" name="Tân Bình • Food Section" tags="tan-binh-food" position="1425,1000" size="100,100">:: Tân Bình • Food Section
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="27" name="Tân Bình • Food Section" tags="tan-binh-food" position="1425,1000" size="100,100">Tân Bình • Gian thực phẩm
 
 8:00 AM
 
@@ -1199,9 +1202,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_khu%20thu%CC%9B%CC%A3c%20pha%CC%82%CC%89m_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="30" name="Tân Bình • Clothing 1st Floor" tags="tan-binh-floor" position="1675,875" size="100,100"> :: Tân Bình • Clothing 1st Floor
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="28" name="Tân Bình • Clothing 1st Floor" tags="tan-binh-floor" position="1675,875" size="100,100">Tân Bình • Gian quần áo (tầng 1)
 
 8:00 AM
 
@@ -1209,9 +1212,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_ta%CC%82%CC%80ng%201%2C%20khu%20qua%CC%82%CC%80n%20a%CC%81o_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="31" name="Tân Bình • Clothing Outdoor" tags="tan-binh-outdoor" position="1550,875" size="100,100">:: Tân Bình • Clothing Outdoor
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="29" name="Tân Bình • Clothing Outdoor" tags="tan-binh-outdoor" position="1550,875" size="100,100">Tân Bình • Gian quần áo ngoài trời
 
 8:00 AM
 
@@ -1219,21 +1222,21 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3 T%C3%A2n B%C3%ACnh_8am_khu qu%E1%BA%A7n %C3%A1o,ngo%C3%A0i tr%E1%BB%9Di_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="32" name="Tân Bình • Clothing Area" tags="tan-binh-clothe" position="1425,875" size="100,100">:: Tân Bình • Clothing Area
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="30" name="Tân Bình • Clothing Area" tags="tan-binh-clothe" position="1425,875" size="100,100">Tân Bình • Gian quần áo
 
 8:00 AM
 
-**Observation:** A continuous, moderate-level fabric-handling bed underlies periodic bursts of bargaining, generating a characteristic retail sound signature.
+**Cảm nhận:** Tiếng xếp vải lẫn với tiếng trả giá tạo nên âm thanh quen thuộc của khu chợ.
 
 &lt;audio controls&gt;
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_khu%20qua%CC%82%CC%80n%20a%CC%81o_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="33" name="Tân Bình • Food Section Meat Grinder" tags="tan-binh-food-grinder" position="1425,750" size="100,100">:: Tân Bình • Food Section (Meat Grinder)
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="31" name="Tân Bình • Food Section Meat Grinder" tags="tan-binh-food-grinder" position="1425,750" size="100,100">Tân Bình • Gian thực phẩm (máy xay, dao thớt)
 
 8:00 AM
 
@@ -1241,9 +1244,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Cho%CC%9B%CC%A3%20Ta%CC%82n%20Bi%CC%80nh_8am_khu%20thu%CC%9B%CC%A3c%20pha%CC%82%CC%89m%2C%20a%CC%82m%20thanh%20ma%CC%81y%20xay%20thi%CC%A3t%2C%20cha%CC%A3%CC%86t%20thi%CC%A3t_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="34" name="Tân Bình • Front Gate" tags="tan-binh-gate" position="1675,750" size="100,100">:: Tân Bình • Front Gate
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="32" name="Tân Bình • Front Gate" tags="tan-binh-gate" position="1675,750" size="100,100">Tân Bình • Âm thanh cổng chính
 
 8:00 AM
 
@@ -1251,9 +1254,9 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3 T%C3%A2n B%C3%ACnh_8am_%C3%A2m thanh tr%C6%B0%E1%BB%9Bc c%E1%BB%95ng ch%C3%ADnh_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="35" name="Tân Bình • Outdoor 2nd Floor" tags="tan-binh-outdoor-2" position="1550,750" size="100,100">:: Tân Bình • Outdoor (from 2nd Floor)
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="33" name="Tân Bình • Outdoor 2nd Floor" tags="tan-binh-outdoor-2" position="1550,750" size="100,100">Tân Bình • Âm thanh ngoài trời (tầng 2)
 
 8:00 AM
 
@@ -1261,30 +1264,29 @@ Select a sector to explore:
   &lt;source src=&quot;audio/Ch%E1%BB%A3 T%C3%A2n B%C3%ACnh_8am_%C3%A2m thanh ngo%C3%A0i tr%E1%BB%9Di, thu t%E1%BB%AB t%E1%BA%A7ng 2_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Morning Tân Bình-&gt;Morning Tân Bình]]  
-[[Back to Morning Time Frames-&gt;Morning]]
-</tw-passagedata><tw-passagedata pid="36" name="Late Afternoon Phạm Văn Hai" tags="" position="2050,925" size="100,100">:: Late Afternoon Phạm Văn Hai
-As the day draws toward its close, **Chợ Phạm Văn Hai** takes on a more measured rhythm.  
-Vendors wind down their activities, customers make final purchases, and the soundscape blends the fading hum of commerce with preparations for closing.  
-This period offers a nuanced portrait of a neighborhood market at the intersection of day’s end routines and evening anticipation.
+[[Quay lại Buổi sáng chợ Tân Bình-&gt;Morning Tân Bình]]  
+[[Quay lại Buổi sáng-&gt;Morning]]
+</tw-passagedata><tw-passagedata pid="34" name="Late Afternoon Phạm Văn Hai" tags="" position="2050,925" size="100,100">Chiều muộn chợ Phạm Văn Hai
+Đến cuối ngày, chợ Phạm Văn Hai dần lắng lại.
+Người bán lo dọn dẹp, khách ghé mua thêm ít đồ, tiếng ồn cũng thưa hơn, chỉ còn lại cảm giác chợ khép dần để nhường chỗ cho buổi tối.
 
-Please select a market area to explore:
+Hãy chọn khu vực chợ để khám phá
 
-[[Clothing Area 01-&gt;Phạm Văn Hai • Clothing Area 01]]  
-[[Clothing Area 02-&gt;Phạm Văn Hai • Clothing Area 02]]  
-[[Outdoor Area – Closing Stalls-&gt;Phạm Văn Hai • Outdoor Area – Closing Stalls]]  
-[[Food Court – Low Activity-&gt;Phạm Văn Hai • Food Court – Low Activity]]  
-[[Outdoor Area-&gt;Phạm Văn Hai • Outdoor Area]]
-</tw-passagedata><tw-passagedata pid="37" name="Late Afternoon Hồ Thị Kỷ" tags="" position="2475,875" size="100,100">Late Afternoon Hồ Thị Kỷ
-In the late afternoon, **Hồ Thị Kỷ** presents a layered urban landscape where floral commerce and culinary culture coexist in close proximity.  
-The flower market—renowned as the city’s primary hub for fresh blooms—embodies both the aesthetics of daily life and the seasonal intensities of occasions such as Tết. Alongside it, the surrounding food court operates as a distinct yet complementary sphere, where the preparation and consumption of street food shape a parallel sensory narrative.  
-Together, these spaces illustrate the interplay of visual spectacle, olfactory richness, and auditory texture in Hồ Chí Minh City’s market ecology.
+[[Gian quần áo 01-&gt;Phạm Văn Hai • Clothing Area 01]]  
+[[Gian quần áo 02-&gt;Phạm Văn Hai • Clothing Area 02]]  
+[[Khu vực ngoài trời – dọn hàng-&gt;Phạm Văn Hai • Outdoor Area – Closing Stalls]]  
+[[Quầy ẩm thực – ít người-&gt;Phạm Văn Hai • Food Court – Low Activity]]  
+[[Khu vực ngoài trời-&gt;Phạm Văn Hai • Outdoor Area]]
+</tw-passagedata><tw-passagedata pid="35" name="Late Afternoon Hồ Thị Kỷ" tags="" position="2475,875" size="100,100">Chiều muộn chợ Hồ Thị Kỷ
+Buổi chiều xuống, **Hồ Thị Kỷ** vừa tấp nập vừa gần gũi.
+Khu bán hoa vẫn rực rỡ sắc màu, nhất là những ngày giáp Tết. Ngay bên cạnh, khu ăn uống rộn ràng mùi thơm và tiếng xì xèo của các quán nhỏ.
+Hai nhịp sống song song ấy hòa vào nhau, tạo nên một không gian rất riêng của chợ.
 
-Please select an area to explore:
+Hãy chọn một khu vực mà bạn muốn khám phá:
 
-[[Hồ Thị Kỷ • Flower Market (Pre-Tết Atmosphere)]]  
-[[Hồ Thị Kỷ • Food Court]]  
-[[Hồ Thị Kỷ • Bánh Tráng Nướng Stall]]</tw-passagedata><tw-passagedata pid="38" name="Phạm Văn Hai • Clothing Area 01" tags="van-hai-clothe-1" position="2175,1225" size="100,100">:: Phạm Văn Hai • Clothing Area 01 
+[[Chợ hoa (không khí cận Tết)-&gt;Hồ Thị Kỷ • Flower Market (Pre-Tết Atmosphere)]]  
+[[Quầy ẩm thực-&gt;Hồ Thị Kỷ • Food Court]]  
+[[Quầy bánh tráng nướng-&gt;Hồ Thị Kỷ • Bánh Tráng Nướng Stall]]</tw-passagedata><tw-passagedata pid="36" name="Phạm Văn Hai • Clothing Area 01" tags="van-hai-clothe-1" position="2175,1225" size="100,100">Phạm Văn Hai • Gian quần áo 01 
 
 4:00 PM
 
@@ -1292,9 +1294,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Phạm Văn Hai_4pm_khu quần áo 01_Nov2024.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
-[[Back to Late Afternoon Time Frames-&gt;Late Afternoon]]
-</tw-passagedata><tw-passagedata pid="39" name="Phạm Văn Hai • Clothing Area 02" tags="van-hai-clothe-2" position="2050,1225" size="100,100">:: Phạm Văn Hai • Clothing Area 02
+[[Quay lại Chiều muộn chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]
+</tw-passagedata><tw-passagedata pid="37" name="Phạm Văn Hai • Clothing Area 02" tags="van-hai-clothe-2" position="2050,1225" size="100,100">Phạm Văn Hai • Gian quần áo 02
 
 4:00 PM
 
@@ -1302,9 +1304,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Phạm Văn Hai_4pm_khu quần áo 02_Nov2024.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
-[[Back to Late Afternoon Time Frames-&gt;Late Afternoon]]
-</tw-passagedata><tw-passagedata pid="40" name="Phạm Văn Hai • Outdoor Area – Closing Stalls" tags="van-hai-closing" position="2050,1100" size="100,100">:: Phạm Văn Hai • Outdoor Area – Closing Stalls
+[[Quay lại Chiều muộn chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]
+</tw-passagedata><tw-passagedata pid="38" name="Phạm Văn Hai • Outdoor Area – Closing Stalls" tags="van-hai-closing" position="2050,1100" size="100,100">Phạm Văn Hai • Khu vực ngoài trời – dọn hàng
 
 4:00 PM
 
@@ -1312,9 +1314,9 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Phạm Văn Hai_4pm_khu ngoài trời, âm thanh rào hàng_Nov2024.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
-[[Back to Late Afternoon Time Frames-&gt;Late Afternoon]]
-</tw-passagedata><tw-passagedata pid="41" name="Phạm Văn Hai • Food Court – Low Activity" tags="van-hai-low-food" position="2175,1100" size="100,100">:: Phạm Văn Hai • Food Court – Low Activity
+[[Quay lại Chiều muộn chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]
+</tw-passagedata><tw-passagedata pid="39" name="Phạm Văn Hai • Food Court – Low Activity" tags="van-hai-low-food" position="2175,1100" size="100,100">Phạm Văn Hai • Quầy ẩm thực – ít người
 
 4:00 PM
 
@@ -1322,18 +1324,18 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Phạm Văn Hai_4pm_khu ăn uống, vắng khách_Nov2024.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
-[[Back to Late Afternoon Time Frames-&gt;Late Afternoon]]
-</tw-passagedata><tw-passagedata pid="42" name="Phạm Văn Hai • Outdoor Area" tags="van-hai-outdoor" position="1925,1100" size="100,100">:: Phạm Văn Hai • Outdoor Area
+[[Quay lại Chiều muộn chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]
+</tw-passagedata><tw-passagedata pid="40" name="Phạm Văn Hai • Outdoor Area" tags="van-hai-outdoor" position="1925,1100" size="100,100">Phạm Văn Hai • Khu vực ngoài trời
 4:00 PM
 
 &lt;audio controls&gt;
   &lt;source src=&quot;audio/Chợ Phạm Văn Hai_4pm_khu ngoài trời_Nov2024.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
-[[Back to Late Afternoon Time Frames-&gt;Late Afternoon]]
-</tw-passagedata><tw-passagedata pid="43" name="Hồ Thị Kỷ • Flower Market (Pre-Tết Atmosphere)" tags="thi-ky-pre-tet" position="2400,1125" size="100,100">:: Hồ Thị Kỷ • Flower Market (Pre-Tết Atmosphere)
+[[Quay lại Chiều muộn chợ Phạm Văn Hai-&gt;Late Afternoon Phạm Văn Hai]]  
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]
+</tw-passagedata><tw-passagedata pid="41" name="Hồ Thị Kỷ • Flower Market (Pre-Tết Atmosphere)" tags="thi-ky-pre-tet" position="2400,1125" size="100,100">Hồ Thị Kỷ • Chợ hoa (không khí cận Tết)
 
 5:00 PM
 
@@ -1341,8 +1343,8 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Hồ Thị Kỷ_5pm_khu bán hoa. trước Tết Ất Tỵ 2025__Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
-</tw-passagedata><tw-passagedata pid="44" name="Hồ Thị Kỷ • Food Court" tags="thi-ky-food-area" position="2400,1000" size="100,100">:: Hồ Thị Kỷ • Food Court
+[[Quay lại Chiều muộn chợ Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]</tw-passagedata><tw-passagedata pid="42" name="Hồ Thị Kỷ • Food Court" tags="thi-ky-food-area" position="2400,1000" size="100,100">Hồ Thị Kỷ • Quầy ẩm thực
 
 6:00 PM
 
@@ -1350,8 +1352,8 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Hồ Thị Kỷ_6pm_khu ăn uống__Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
-</tw-passagedata><tw-passagedata pid="45" name="Hồ Thị Kỷ • Bánh Tráng Nướng Stall" tags="thi-ky-food" position="2525,1000" size="100,100">:: Hồ Thị Kỷ • Bánh Tráng Nướng Stall
+[[Quay lại Chiều muộn chợ Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]</tw-passagedata><tw-passagedata pid="43" name="Hồ Thị Kỷ • Bánh Tráng Nướng Stall" tags="thi-ky-food" position="2525,1000" size="100,100">Hồ Thị Kỷ • Quầy bánh tráng nướng
 
 6:00 PM
 
@@ -1359,8 +1361,8 @@ Please select an area to explore:
   &lt;source src=&quot;audio/Chợ Hồ Thị Kỷ_6pm_khu ăn uống, quầy bánh tráng nướng_Jan2025.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
 
-[[Back to Late Afternoon Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
-</tw-passagedata><tw-passagedata pid="46" name="Back to Late Afternoon Hồ Thị Kỷ" tags="" position="2525,1125" size="100,100"></tw-passagedata><tw-passagedata pid="47" name="Back to Morning" tags="" position="1350,350" size="100,100"></tw-passagedata></tw-storydata>
+[[Quay lại Chiều muộn chợ Hồ Thị Kỷ-&gt;Late Afternoon Hồ Thị Kỷ]]
+[[Quay lại Chiều muộn-&gt;Late Afternoon]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
